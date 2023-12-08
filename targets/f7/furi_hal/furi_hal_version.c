@@ -247,13 +247,13 @@ const char* furi_hal_version_get_hw_region_name() {
     case FuriHalVersionRegionUnknown:
         return "R00";
     case FuriHalVersionRegionEuRu:
-        return "R01";
+        return "R00";
     case FuriHalVersionRegionUsCaAu:
-        return "R02";
+        return "R00";
     case FuriHalVersionRegionJp:
-        return "R03";
+        return "R00";
     case FuriHalVersionRegionWorld:
-        return "R04";
+        return "R00";
     }
     return "R??";
 }
